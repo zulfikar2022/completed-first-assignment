@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* styling start of the heading / banner part */
+
+.banner-text{
+text-align: right;
+margin-top: 220px;
+position: relative;
+top:2% ;
+left: -11%;
+
+}
+.banner-heading{
+    font-size: 60px;
+}
+.banner-description{
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+
+.banner-text .banner-heading,.banner-description{
+    color: white;
+}
+.banner-button{
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+/* styling end of the heading / banner part */
+
+
+/* styes for main */
+
+
+
+/* styling of the person and text part of main */
+.person-and-text{
+ display: flex;
+ align-items: center;
+ margin-top: 335px;
+ justify-content: space-around;
+}
+
+.person-and-text .failures ul{
+    list-style-image: url(../images/icons/tick.png);
+}
+
+.person-and-text .failures h2{
+ font-size: 45px;
+
+}
+
+.person-and-text .failures p,ul{
+    color: gray;
+    margin: 20px 0;
+}
+.person-and-text .failures ul{
+    margin-left: 20px;
+}
+
+/* styling end of the person and text part of main */
+
+
+/* styling for the "my plans" part */
+
+.my-plans{
+    margin-top: 70px;
+}
+.my-plans h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 35px 0;
+}
+
+.my-plans .plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+            /* styles for align the icons center */
+.my-plans .plans .web-development img{
+    position: relative;
+    left: 45px;
+}
+.my-plans .plans .Javascript img{
+    position: relative;
+    left: 14px;
+}
+.my-plans .plans .smoking img{
+    position: relative;
+    left: 30px;
+}
+.my-plans .plans .ecommerce img{
+    position: relative;
+    left: 15px;
+}
+            /* styles for align icons center end */
+
+
+.my-plans .plans .topic{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.my-plans .plans .state{
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* styling for the "my plans" part end */
+
+
+
+/* styling for blend class */
+
+.blend{
+    background: url(../images/watch.png),url(../images/gradient1.png);
+    border: none;
+    border-radius: 4px;
+    width: 70%;
+    height: 250px;
+    background-blend-mode: multiply;
+    margin: 3px auto;
+    margin-top: 90px;
+
+}
+
+
+.blend .text-inside-blend {
+    margin-left: 45px;
+    padding-top: 20px;
+}
+
+.blend .text-inside-blend p{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.blend .text-inside-blend button{
+    margin-left: 13px;
+}
+
+/* styles end for blend class */
+
+/* styles for my-own-design */
+
+
+.my-own-design{
+    background-color: #0730f5e8;
+    display: flex;
+    justify-content: space-evenly;
+    height: 390px;
+    width: 70vw;
+    margin: 20px auto;
+    padding: 15px 15px;
+    border-radius: 5px;
+    
+}
+
+.my-own-design > img{
+margin-top: 10px;
+border-radius: 5px;
+border: 2px solid #fff;
+}
+.my-own-design .about-me{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.my-own-design .about-me h2 span {
+  color: #fff;
+
+}
+.my-own-design .about-me h2{
+    font-size: 37px;
+}
+
+.my-own-design .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.my-own-design .icons img{
+
+    margin-top: 10px;
+}
+
+
+
+/* styles end for my-own-design */
+
+
+.my-own-design .containedr img{
+    height: 308px;
+    width: 308px;
+    border-radius: 5px;
+}
+
+
+
+
+/* styles for footer part */
+
+
+/* styles for future */
+footer{
+    margin-top: 120px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+
+footer img{
+    margin-left: 10px;
+}
+
+footer .future h3,p,a{
+    margin: 30px 10px;
+}
+footer .future h3{
+    font-size: 40px;
+}
+footer .future  a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* styles for subscribe */
+
+footer .subscribe{
+    position: relative;
+    top: 40px;
+}
+
+
+footer .subscribe h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .subscribe form input{
+    height: 35px;    
+    padding-left: 20px;
+    width: 190px;
+    background-color: #000;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+footer .subscribe form button{
+    height: 40px;
+    padding: 5px 15px;
+    background-color: rgb(16, 16, 212);
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    left: -2px;
+    
+}
+footer .subscribe form input,button{
+    margin-bottom:10px ;
+}
